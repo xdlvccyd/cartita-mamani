@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #FFC0CB; /* Fondo rosa pastel */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+header h1 {
+    color: #D63384;
+    font-size: 32px;
+}
+
+/* Carta */
+.card {
+    background-color: #FFD1DC; /* Rosa claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+}
+
+/* Música */
+.music a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF1493; /* Rosa fuerte */
+    font-size: 20px;
+}
+
+.music a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #D63384;
+}
